@@ -1,0 +1,101 @@
+body {
+    background-color: #e5e5e5;
+}
+
+.meta-post {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+header {
+    text-align: center;
+
+}
+.header header {
+    background-color: #999999;
+    padding: 50px 50px;
+}
+
+nav.menus {
+    text-align: right;
+    background-color:#003399;
+    color:white;
+    padding: 0px 10px;
+    margin: 7;
+}
+
+nav.menus ul {
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+
+nav.menus ul li {
+    display: inline-block;
+    color:white;
+}
+
+nav.menus ul li a {
+    display: block;
+    padding: 3px 3px;
+    color: white;
+    text-decoration: none
+}
+
+nav.menus ul li a:hover, nav.menus ul li a:focus{
+    text-decoration: none;
+    background-color: black;
+    border-radius: 25px;
+     padding: 8px 8px;
+    color: white;
+
+}
+
+article.posts {
+    padding: 100px 20px;
+    background-color:white;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none
+    color:white;
+
+}
+article.posts ul a{
+text-decoration: none
+}
+article.posts ul a:hover, article.posts ul a:focus{
+    text-decoration: none;
+    background-color: darkgreen;
+    padding: 20px 20px;
+    color: white;
+    border-radius: 30px;
+}
+aside.widgets {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+aside.widgets ul {
+    margin:0;
+    padding:0;
+}
+aside.widgets li {
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+
+.widget-title {
+  border-bottom: 4px solid #0033ff;
+  padding-bottom: 4px;
+}
+
+footer.copyright {
+    padding: 10px 20px;
+    font-size: 12px;
+}
+footer{
+   text-align: center;
+    padding: 0px 20px;
+    background-color: #003399;
+    margin: 4;
+}
